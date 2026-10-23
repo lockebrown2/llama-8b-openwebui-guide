@@ -13,7 +13,7 @@ You will need:
 ## 1. Get your API key
 
 1. Sign in at <https://api.market>.
-2. Subscribe to the Llama 3.1 8B Instruct API.
+2. Subscribe to the Llama 3.1 8B Instruct API (<https://api.market/store/arbit-ai-api/llama>.
 3. Copy your key from <https://api.market/account/apiKeys>.
 
 api.market authenticates requests with the `x-api-market-key` header. It is **not** a standard `Authorization: Bearer` key, which is why the setup below passes it as a custom header.
